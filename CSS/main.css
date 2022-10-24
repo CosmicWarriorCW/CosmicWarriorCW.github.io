@@ -1,0 +1,28 @@
+h1{
+	color:white;
+	text-align:center;
+	
+		
+	}
+img{
+	position:relative;
+	bottom:70px;
+	}
+
+
+body{
+		color:white;
+		background-color:black;
+		font-family:cursive;
+		
+	}
+a:link{
+		color:green;
+		text-decoration:none;
+	}
+a:hover{
+	color:lightgrey;
+	}
+a:visited{
+	color:grey;
+	}
