@@ -1,0 +1,31 @@
+body{
+	height:842px;
+	width:595px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid white;
+	background-color:black;
+	color:white;
+	font-family:cursive;
+	}
+h1{
+	text-align:center
+
+	}
+.c1{
+	position:relative;
+	left:520px;
+	}
+a:link{
+	color:green;
+	text-decoration:none;
+}
+a:hover{
+	color:grey;
+	
+}
+#back{
+	position:relative;
+	top:705px;
+	left:35px;
+	}
