@@ -1,19 +1,26 @@
 h1{
 	color:white;
-	text-align:center;
-	
-		
+	text-align:center;	
 	}
 img{
+	
 	position:relative;
-	bottom:70px;
+	bottom:60px;
+	margin: 0px;
 	}
-
-
+h2{
+	text-decoration: underline;
+}
+align1{
+	position:relative;
+	left:50px;
+}
 body{
+	
 		color:white;
 		background-color:black;
-		font-family:cursive;
+		font-family:Modern;
+		
 		
 	}
 a:link{
