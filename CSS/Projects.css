@@ -1,7 +1,4 @@
 body{
-	background-color:black;
-	color:white;
-	font-family:cursive;
 	height:100%;
 	width:1000px;
 	margin-left:auto;
@@ -9,6 +6,7 @@ body{
 	border:1px solid white;
 	background-color:black;
 	color:white;
+	font-family:cursive;
 	}
 dl{
 			font-size:26;
