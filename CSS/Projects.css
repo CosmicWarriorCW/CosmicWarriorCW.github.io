@@ -1,33 +1,38 @@
-body{
-	height:100%;
-	width:1000px;
-	margin-left:auto;
-	margin-right:auto;
-	border:1px solid white;
-	background-color:black;
-	color:white;
-	font-family:cursive;
-	}
-dl{
-			font-size:26;
-			
-	}
-dt{
-	text-decoration:underline;}
-h1{
-	font-size:46;
-	text-align:center;
-	}
-a:link{
-	color:lightgreen;
-	text-decoration:none;
+/* Resume.css */
+
+body {
+    margin: 70px auto; /* Vertical margin 70px, horizontal margin auto */
+    padding: 20px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    max-width: 1000px; /* Limit content width to 1000px */
+    box-sizing: border-box; /* Include padding and border in width */
 }
-a:hover{
-	color:grey;
-	
+
+dl {
+    font-size: 26px;
 }
-#back{
-	position:relative;
-	top:70px;
-	left:500px;
-	}
+
+dt {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 46px;
+    text-align: center;
+}
+
+a:link {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+#back {
+    text-align: right;
+}
