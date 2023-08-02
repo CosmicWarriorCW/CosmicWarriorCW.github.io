@@ -33,6 +33,6 @@ a:hover {
     color: grey;
 }
 
-#back {
-    text-align: right;
-}
+position:relative;
+	top:0px;
+	left:100%;
