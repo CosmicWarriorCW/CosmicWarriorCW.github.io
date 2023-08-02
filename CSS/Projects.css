@@ -1,14 +1,15 @@
 /* Resume.css */
 
+/* Global styles */
 body {
-    margin: 70px auto; /* Vertical margin 70px, horizontal margin auto */
+    margin: 70px auto;
     padding: 20px;
     border: 1px solid white;
     background-color: black;
     color: white;
     font-family: cursive;
-    max-width: 1000px; /* Limit content width to 1000px */
-    box-sizing: border-box; /* Include padding and border in width */
+    max-width: 1000px;
+    box-sizing: border-box;
 }
 
 dl {
@@ -28,15 +29,38 @@ a:link {
     color: lightgreen;
     text-decoration: none;
 }
-a:visited{
-	color:grey;
-	}
+
+a:visited {
+    color: grey;
+}
 
 a:hover {
     color: grey;
 }
+
 #back {
-   position: relative;
+    position: relative;
     float: right;
-   font-size: 26px;
+    font-size: 26px;
+}
+
+/* Media query for screens up to 576px width (small screens) */
+@media (max-width: 576px) {
+    body {
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    dl {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    #back {
+        font-size: 20px;
+        margin-top: 10px;
+    }
 }
