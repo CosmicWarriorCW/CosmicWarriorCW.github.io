@@ -1,3 +1,13 @@
+body {
+    margin: 70px auto; /* Vertical margin 70px, horizontal margin auto */
+    padding: 20px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    max-width: 1000px; /* Limit content width to 1000px */
+    box-sizing: border-box; /* Include padding and border in width */
+}
 h1{
 	color:white;
 	text-align:center;	
