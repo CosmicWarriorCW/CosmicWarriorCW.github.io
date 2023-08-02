@@ -1,33 +1,60 @@
+/* main.css */
+
+/* Global styles */
 body {
-    margin: 70px auto; /* Vertical margin 70px, horizontal margin auto */
+    margin: 70px auto;
     padding: 20px;
     border: 1px solid white;
     background-color: black;
     color: white;
     font-family: cursive;
-    max-width: 1000px; /* Limit content width to 1000px */
-    box-sizing: border-box; /* Include padding and border in width */
-	font-size: 26px;
+    max-width: 1000px;
+    box-sizing: border-box;
+    font-size: 26px;
 }
-h1{
-	font-size: 46px;
-	color:white;
-	text-align:center;	
-	}
-h2{
-	text-decoration: underline;
+
+h1 {
+    font-size: 46px;
+    color: white;
+    text-align: center;
 }
-align1{
-	position:relative;
-	left:50px;
+
+h2 {
+    text-decoration: underline;
 }
-a:link{
-		color:green;
-		text-decoration:none;
-	}
-a:hover{
-	color:lightgrey;
-	}
-a:visited{
-	color:grey;
-	}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 576px) {
+    body {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
+    
+    h1 {
+        font-size: 36px; /* Decrease h1 font size for smaller screens */
+    }
+    
+    h2 {
+        font-size: 24px; /* Decrease h2 font size for smaller screens */
+    }
+    
+    /* You can adjust other styles as needed for smaller screens */
+}
+
+/* Rest of your styles */
+align1 {
+    position: relative;
+    left: 50px;
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+a:visited {
+    color: grey;
+}
