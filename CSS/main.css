@@ -7,6 +7,7 @@ body {
     font-family: cursive;
     max-width: 1000px; /* Limit content width to 1000px */
     box-sizing: border-box; /* Include padding and border in width */
+	font-size: 26px;
 }
 h1{
 	font-size: 46px;
@@ -20,14 +21,6 @@ align1{
 	position:relative;
 	left:50px;
 }
-body{
-	
-		color:white;
-		background-color:black;
-		font-family:Modern;
-		font-size: 46px;
-		
-	}
 a:link{
 		color:green;
 		text-decoration:none;
