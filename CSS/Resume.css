@@ -34,5 +34,6 @@ a:hover {
 }
 
 #back {
-    text-align: right;
+   position: relative;
+    float: right;
 }
