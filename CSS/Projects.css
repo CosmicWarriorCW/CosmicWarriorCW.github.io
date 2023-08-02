@@ -32,8 +32,6 @@ a:link {
 a:hover {
     color: grey;
 }
- #back{
-position:relative;
-	top:0px;
-	left:1000px;
- }
+#back {
+    text-align: right;
+}
